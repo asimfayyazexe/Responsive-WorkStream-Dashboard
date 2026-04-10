@@ -7,6 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {
@@ -695,12 +696,12 @@ a {
   font-size: 1.35rem;
 }
 
-.icon-2{
-    background: var(--cyan);
+.icon-2 {
+  background: var(--cyan);
 }
 
-.icon-3{
-    background: var(--pink-light) ;
+.icon-3 {
+  background: var(--pink-light);
 }
 
 .stats-card > .stat-value {
@@ -886,7 +887,6 @@ a {
 .close-btn:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
-
 
 /* Tablet sidebar */
 @media (min-width: 760px) and (max-width: 1200px) {
